@@ -1,0 +1,36 @@
+.zoom .img1{
+    /* opacity: 1; */
+    width: 100%;
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+.zoom:hover .img1{
+    transform: scale(1.1);
+}
+.zoom{
+    /* border: 1px solid red; */
+    height: 94%;
+    overflow: hidden;
+}
+
+.zoom1 .img1{
+    /* opacity: 1; */
+    width: 100%;
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+.zoom1:hover .img1{
+    transform: scale(1.1);
+}
+.zoom1{
+    /* border: 1px solid red; */
+    height: 67%;
+    overflow: hidden;
+}
+.btn{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+}
+
