@@ -1,0 +1,96 @@
+.bigBox {
+	width: 100%;
+	background: #f2f2f2;
+	margin-top: 80px;
+	padding: 60px 0px 60px 0px;
+}
+.bigGrid {
+	width: 100%;
+}
+.mediumGrid {
+	/* border: 1px solid rgb(0, 81, 255); */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+figure {
+	position: relative;
+	z-index: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.image {
+	width: 570px;
+	height: 420px;
+	transform: scale(1);
+	transition: 0.5s;
+}
+@media screen and (max-width: 1180px) {
+	.image {
+		width: 520px;
+		height: 380px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.image {
+		width: 480px;
+		height: 340px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.image {
+		width: 520px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.image {
+		width: 490px;
+		height: 370px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.image {
+		width: 450px;
+		height: 320px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.image {
+		width: 410px;
+		height: 280px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.image {
+		width: 370px;
+		height: 280px;
+	}
+}
+.text1 {
+	font-size: 35px !important;
+	color: white;
+	font-weight: 600;
+}
+.text2 {
+	color: white;
+	font-weight: 600;
+	font-size: 45px !important;
+}
+
+.mediumGrid:hover .image {
+	transform: scale(1.1);
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: sans-serif;
+}
+.linkTwo {
+	text-decoration: none;
+	color: white;
+}
