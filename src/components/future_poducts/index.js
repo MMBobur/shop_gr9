@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-import "./styles.css";
 import Img1 from "../../assets/img/carousel-1.webp"
 import Img2 from "../../assets/img/carousel-2.webp"
 import Img3 from "../../assets/img/carousel-3.webp"
